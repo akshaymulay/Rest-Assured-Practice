@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.payload.as.file.ComplexReq">
+      <class name="com.params.SingleParams">
         <methods>
-          <include name="JsonTestCase"/>
-          <include name="beforClassSetp"/>
+          <include name="UrlEncoding"/>
         </methods>
-      </class> <!-- com.payload.as.file.ComplexReq -->
+      </class> <!-- com.params.SingleParams -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
